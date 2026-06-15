@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Russia Promo Codes | Все рабочие промокоды</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="user-profile">
+                    <img src="https://preview.redd.it/which-dustin-was-your-favorite-season-1-2-3-or-4-v0-m02mblcv151e1.jpg?width=500&format=pjpg&auto=webp&s=8c7a88fc07078af72679d5ce3447edca0fc61068" alt="Willwiix" class="avatar">
+                    <div class="profile-info">
+                        <h1>Willwiix</h1>
+                        <p>Полный список рабочих промокодов Black Russia</p>
+                    </div>
+                </div>
+                <button class="download-btn" onclick="downloadCodes()">📥 Скачать все коды</button>
+            </div>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="🔍 Поиск промокода или сервера...">
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterCategory('all')">Все</button>
+                <button class="filter-btn" onclick="filterCategory('active')">Активные</button>
+                <button class="filter-btn" onclick="filterCategory('servers')">По серверам</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- General Promo Codes Section -->
+            <section class="section" id="general-section">
+                <h2 class="section-title">🎁 Основные промокоды</h2>
+                <div class="codes-grid" id="general-codes"></div>
+            </section>
+
+            <!-- Server Promo Codes Section -->
+            <section class="section" id="servers-section">
+                <h2 class="section-title">🗺️ Промокоды по серверам</h2>
+                <div class="servers-container" id="servers-container"></div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>💡 Некоторые коды могут уже не работать. Проверяйте в официальном сообществе VK: Black Russia</p>
+            <p>⚠️ Вводить можно только ОДИН промокод от ютубера за раз!</p>
+        </footer>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
